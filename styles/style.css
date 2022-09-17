@@ -19,4 +19,91 @@ body {
   background: #ffffff;
   max-width: 1440px;
   width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.sayt > .header {
+  background: #292e36;
+}
+.sayt > .header > .header__top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #5c6168;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.sayt > .header > .header__top > h3 {
+  border: 2px solid #e1b168;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height, or 150% */
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  letter-spacing: 0.2px;
+  width: 295px;
+  height: 73px;
+  color: #ffffff;
+  margin: 10px;
+}
+.sayt > .header > .header__top > img {
+  max-width: 370px;
+  margin: 20px;
+}
+.sayt > .header > .header__top > button {
+  margin: 10px;
+  width: 295px;
+  height: 73px;
+  background: #e1b168;
+  border: 2px solid #e1b168;
+  border-radius: 0px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.44px;
+  color: #292e36;
+}
+.sayt > .header > .header__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px;
+}
+.sayt > .header > .header__bottom > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.sayt > .header > .header__bottom > ul > li {
+  list-style: none;
+  margin: 20px 30px;
+}
+.sayt > .header > .header__bottom > ul > li > a {
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.sayt > .header > .header__bottom > .social > a {
+  margin: 10px;
+}
+.sayt > .header > .header__bottom > .social > a > i {
+  font-size: 24px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
