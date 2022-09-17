@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Josefin Sans;
+  src: url(../fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cormorant Infant;
+  src: url(../fonts/Cormorant_Infant/CormorantInfant-Regular.ttf);
+}
+
+body{
+    background: #e5e5e5;
+}
+
+.sayt{
+    background: #ffffff;
+    max-width: 1440px;
+    width: 100%;
+    
+}
