@@ -55,6 +55,7 @@ body {
 
       & > img {
         max-width: 370px;
+        width: 90%;
         margin: 20px;
       }
 
@@ -110,6 +111,9 @@ body {
 
             color: #ffffff;
           }
+          & > a:hover {
+            color: #e1b168;
+          }
         }
       }
 
@@ -119,6 +123,385 @@ body {
           & > i {
             font-size: 24px;
             color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  & > .welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #292e36;
+
+    & > .welcome__text {
+      max-width: 616px;
+      width: 100%;
+      margin: 20px;
+
+      & > h1 {
+        font-family: "Cormorant Infant";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 110px;
+        /* identical to box height, or 110% */
+
+        letter-spacing: 0.2px;
+
+        color: #ffffff;
+      }
+
+      & > p {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        letter-spacing: 0.2px;
+        margin-top: 26px;
+        color: #ffffff;
+      }
+
+      & > button {
+        width: 230px;
+        height: 73px;
+        background-color: transparent;
+        border: 2px solid #e1b168;
+        margin-top: 35px;
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        color: #e1b168;
+      }
+    }
+
+    & > img {
+      max-width: 720px;
+      width: 95%;
+    }
+  }
+
+  & > .info {
+    background: #fff8f5;
+    padding: 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    & > .info__card {
+      display: flex;
+      align-items: center;
+      margin: 20px 15px;
+      max-width: 430px;
+      width: 95%;
+
+      & > div {
+        margin-left: 20px;
+        & > h3 {
+          font-family: "Cormorant Infant";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 39px;
+          /* identical to box height, or 130% */
+
+          letter-spacing: 0.2px;
+
+          color: #292e36;
+        }
+
+        & > h5 {
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          /* identical to box height, or 150% */
+
+          letter-spacing: 0.2px;
+          color: #555555;
+        }
+      }
+    }
+  }
+
+  & > .about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff8f5;
+    padding-bottom: 100px;
+    & > img {
+      max-width: 743px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    & > .about__text {
+      max-width: 560px;
+      margin: 20px;
+
+      & > h2 {
+        font-family: "Cormorant Infant";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        /* identical to box height, or 140% */
+
+        letter-spacing: 0.2px;
+
+        color: #292e36;
+      }
+      & > p {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        letter-spacing: 0.2px;
+
+        color: #555555;
+        margin-top: 15px;
+      }
+
+      & > div {
+        width: 247px;
+        display: inline-block;
+        margin-top: 25px;
+        & > h2 {
+          font-family: "Cormorant Infant";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 56px;
+          /* identical to box height, or 140% */
+
+          letter-spacing: 0.2px;
+
+          color: #292e36;
+        }
+
+        & > p {
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          /* or 150% */
+
+          letter-spacing: 0.2px;
+
+          color: #555555;
+          margin-top: 15px;
+        }
+      }
+
+      & > h3 {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.2px;
+
+        color: #555555;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  & > .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 140px;
+    padding-bottom: 150px;
+
+    & > .dishes {
+      display: flex;
+      flex-direction: column;
+      max-width: 486px;
+
+      & > h3 {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 3px;
+        text-transform: uppercase;
+
+        color: #292e36;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: 1px solid #e1b168;
+        border-bottom: 1px solid #e1b168;
+        width: 60px;
+      }
+
+      & > h2 {
+        font-family: "Cormorant Infant";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        /* identical to box height, or 140% */
+
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+
+        color: #292e36;
+        margin-top: 12px;
+      }
+
+      & > p {
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        letter-spacing: 0.2px;
+
+        color: #555555;
+        margin-top: 13px;
+      }
+      & > img {
+        max-width: 548px;
+        width: 100%;
+        margin-top: 45px;
+      }
+
+      & > button {
+        border: 2px solid #e1b168;
+        width: 255px;
+        height: 73px;
+        margin-top: 60px;
+
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+
+        color: #e1b168;
+        background-color: transparent;
+      }
+    }
+
+    & > .taomlar {
+      margin-top: 33px;
+      max-width: 819px;
+      width: 100%;
+
+      & > h3 {
+        font-family: "Cormorant Infant";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+        /* identical to box height, or 140% */
+
+        letter-spacing: 0.2px;
+
+        color: #292e36;
+        margin-bottom: 40px;
+      }
+
+      & > .taomlar__card {
+        & > .taomlar__card__taom {
+          margin-bottom: 50px;
+
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+
+          & > img {
+            margin-right: 20px;
+          }
+
+          & > div {
+            max-width: 660px;
+            width: 100%;
+            & > h3 {
+              font-family: "Cormorant Infant";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 30px;
+              line-height: 42px;
+              /* identical to box height, or 140% */
+
+              letter-spacing: 0.2px;
+
+              color: #292e36;
+            }
+
+            & > div {
+              display: flex;
+              align-items: flex-end;
+              max-width: 660px;
+              width: 100%;
+              & > p {
+                margin-top: 5px;
+                margin-right: 5px;
+                font-family: "Josefin Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height, or 150% */
+
+                letter-spacing: 0.2px;
+
+                color: #555555;
+              }
+
+              & > .hr {
+                max-width: 300px;
+                width: 100%;
+                height: 1px;
+                border-top: 2px solid #aaaaaa;
+                display: inline-block;
+              }
+            }
+          }
+
+          & > h3 {
+            font-family: "Cormorant Infant";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 42px;
+            /* identical to box height, or 140% */
+
+            letter-spacing: 0.2px;
+            color: #292e36;
+            align-self: flex-end;
           }
         }
       }
