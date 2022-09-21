@@ -519,8 +519,6 @@ body {
 }
 .sayt > .chiroq {
   width: 100%;
-  height: 600px;
-  background: url(../images/chiroqlar.png) center center/cover;
 }
 .sayt > .offers {
   padding-top: 140px;
@@ -634,4 +632,164 @@ body {
 }
 .sayt > .offers > .offers__block > :nth-child(2) {
   background: url(../images/p_bgr.png) center center/cover;
+}
+.sayt > .popular {
+  padding-bottom: 140px;
+}
+.sayt > .popular > h3 {
+  margin: auto;
+  width: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #292e36;
+}
+.sayt > .popular > h2 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin-top: 12px;
+}
+.sayt > .popular > p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #555555;
+  max-width: 760px;
+  width: 95%;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 35px;
+}
+.sayt > .popular > .popular__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sayt > .popular > .popular__block > .popular__block__card {
+  max-width: 318px;
+  width: 95%;
+  margin: 10px;
+  margin-top: 15px;
+}
+.sayt > .popular > .popular__block > .popular__block__card > img {
+  width: 100%;
+}
+.sayt > .popular > .popular__block > .popular__block__card > h3 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 140% */
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dcdcdc;
+  letter-spacing: 0.2px;
+  display: flex;
+  justify-content: space-between;
+  color: #292e36;
+}
+.sayt > .popular > .popular__block > .popular__block__card > p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  letter-spacing: 0.2px;
+  margin-top: 13px;
+  color: #555555;
+}
+.sayt > .popular > button {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid #e1b168;
+  width: 255px;
+  height: 73px;
+  background-color: transparent;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+}
+.sayt > .services {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  padding-left: 40px;
+  padding-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #292e36;
+}
+.sayt > .services > .services__text {
+  max-width: 438px;
+  width: 95%;
+}
+.sayt > .services > .services__text > h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height, or 150% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  width: 172px;
+  color: #ffffff;
+}
+.sayt > .services > .services__text > h2 {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.sayt > .services > .services__text > p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-top: 13px;
+}
+.sayt > .services > img {
+  margin: 15px;
 }/*# sourceMappingURL=style.css.map */
