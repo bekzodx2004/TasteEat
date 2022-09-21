@@ -629,9 +629,145 @@ body {
     }
   }
 
-  &>.chiroq{
-    width: 100% ;
+  & > .chiroq {
+    width: 100%;
     height: 600px;
     background: url(../images/chiroqlar.png) center center / cover;
   }
+
+  & > .offers {
+    padding-top: 140px;
+    padding-bottom: 120px;
+
+    & > h3 {
+      width: 78px;
+      margin: auto;
+      border-top: 1px solid #e1b168;
+      border-bottom: 1px solid #e1b168;
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+
+      color: #292e36;
+    }
+
+    & > h2 {
+      font-family: "Cormorant Infant";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 56px;
+      /* identical to box height, or 140% */
+
+      text-align: center;
+      letter-spacing: 0.2px;
+      text-transform: capitalize;
+
+      color: #292e36;
+      margin-top: 12px;
+    }
+
+    & > p {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+      letter-spacing: 0.2px;
+
+      color: #555555;
+      max-width: 813px;
+      width: 95%;
+      margin: auto;
+      margin-top: 8px;
+      margin-bottom: 10px;
+    }
+
+    & > .offers__block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      & > .offers__block__card {
+        max-width: 665px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 40px;
+        box-sizing: border-box;
+        padding-top: 67px;
+        padding-bottom: 45px;
+        margin: 15px;
+        margin-top: 30px;
+
+        & > div {
+          & > h3 {
+            margin-top: 43px;
+            font-family: "Josefin Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height, or 150% */
+            width: 212px;
+            letter-spacing: 4.5px;
+            text-transform: uppercase;
+            border-top: 1px solid #292e36;
+            border-bottom: 1px solid #292e36;
+            color: #292e36;
+            padding-top: 4px;
+          }
+          & > h2 {
+            font-family: "Cormorant Infant";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 56px;
+            /* identical to box height, or 140% */
+
+            letter-spacing: 0.2px;
+
+            color: #292e36;
+            margin-top: 8px;
+          }
+
+          & > p {
+            margin-top: 5px;
+            font-family: "Josefin Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            /* or 150% */
+
+            letter-spacing: 0.2px;
+            max-width: 245px;
+            color: #555555;
+          }
+        }
+      }
+
+      & > :nth-child(1) {
+        background: url(../images/b_bgr.png) center center / cover;
+      }
+
+      & > :nth-child(2) {
+        background: url(../images/p_bgr.png) center center / cover;
+      }
+    }
+  }
+
+  
 }

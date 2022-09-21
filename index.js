@@ -6,6 +6,7 @@ $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 30,
   nav: true,
+  autoplayTimeout:1500,
   autoplay:true,
   responsive: {
     0: {
