@@ -904,7 +904,6 @@ body {
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
-        line-height: 22px;
         /* identical to box height, or 150% */
 
         letter-spacing: 3px;
@@ -913,6 +912,8 @@ body {
         border-bottom: 1px solid #e1b168;
         width: 172px;
         color: #ffffff;
+        padding-bottom: 5px;
+        padding-top: 5px;
       }
       & > h2 {
         font-family: "Cormorant Infant";
@@ -944,6 +945,208 @@ body {
     }
     & > img {
       margin: 15px;
+    }
+  }
+
+  & > .blog {
+    padding-top: 140px;
+
+    & > h3 {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+
+      color: #292e36;
+      border-top: 1px solid #e1b168;
+      border-bottom: 1px solid #e1b168;
+      margin: auto;
+      padding-top: 10px;
+      width: 56px;
+    }
+
+    & > h2 {
+      font-family: "Cormorant Infant";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 56px;
+      /* identical to box height, or 140% */
+
+      text-align: center;
+      letter-spacing: 0.2px;
+      text-transform: capitalize;
+      margin-top: 11px;
+      color: #292e36;
+    }
+    & > p {
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+      letter-spacing: 0.2px;
+
+      color: #555555;
+      max-width: 465px;
+      width: 95%;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    & > .blog__cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      & > .blog__cards__card {
+        max-width: 640px;
+        margin: 20px;
+
+        & > :nth-child(1) {
+          padding-top: 155px;
+          padding-bottom: 155px;
+
+          & > button {
+            display: block;
+            margin: auto;
+            background-color: #e1b168;
+            border: 2px solid #e1b168;
+            width: 227px;
+            height: 73px;
+            font-family: "Josefin Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            text-align: center;
+            letter-spacing: 0.44px;
+            color: #292e36;
+          }
+        }
+      }
+
+      & > :nth-child(1) {
+        & > :nth-child(1) {
+          background: url(../images/blog1.png) center center / cover;
+        }
+      }
+      & > :nth-child(2) {
+        & > :nth-child(1) {
+          background: url(../images/blog2.png) center center / cover;
+        }
+      }
+    }
+  }
+
+  & > .forma {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background: url(../images/form_bg.png) center center / cover;
+
+    & > .forma__block {
+      max-width: 920px;
+      width: 95%;
+      margin: auto;
+      background: rgba(41, 46, 54, 0.95);
+      padding-top: 140px;
+      padding-bottom: 155px;
+
+      & > h3 {
+        padding-top: 8px;
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+
+        color: #ffffff;
+        border-top: 1px solid #e1b168;
+        border-bottom: 1px solid #e1b168;
+        margin: auto;
+        width: 143px;
+      }
+      & > h2 {
+        font-family: "Cormorant Infant";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        /* identical to box height, or 140% */
+        margin-top: 11px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+
+        color: #ffffff;
+      }
+
+      & > form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 640px;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        & > input {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 33px;
+          /* identical to box height, or 150% */
+
+          letter-spacing: 0.2px;
+          box-sizing: border-box;
+          padding-left: 23px;
+          color: #ffffff;
+          height: 70px;
+          background-color: transparent;
+          border: 1px solid #858585;
+          width: 198px;
+        }
+
+        & > :nth-child(1) {
+          width: 307px;
+        }
+        & > :nth-child(2) {
+          width: 307px;
+        }
+      }
+      & > button {
+        width: 242px;
+        height: 68px;
+        display: block;
+        border: none;
+        margin: auto;
+        background: #ffffff;
+        font-family: "Josefin Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 15px;
+      }
     }
   }
 }
