@@ -275,6 +275,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 486px;
+  width: 90%;
 }
 .sayt > .menu > .dishes > h3 {
   font-family: "Josefin Sans";
@@ -445,6 +446,9 @@ body {
   margin-right: 10px;
   margin-bottom: 40px;
 }
+.sayt > .clients > .owl-carousel {
+  width: 95%;
+}
 .sayt > .clients > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item > .card {
   padding: 0 40px;
   background: #343942;
@@ -539,7 +543,7 @@ body {
 }
 .sayt > .offers > .offers__block > .offers__block__card {
   max-width: 665px;
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -586,6 +590,9 @@ body {
   letter-spacing: 0.2px;
   max-width: 245px;
   color: #555555;
+}
+.sayt > .offers > .offers__block > .offers__block__card > img {
+  width: 100%;
 }
 .sayt > .offers > .offers__block > :nth-child(1) {
   background: url(../images/b_bgr.png) center center/cover;
@@ -792,6 +799,7 @@ body {
 }
 .sayt > .blog > .blog__cards > .blog__cards__card {
   max-width: 640px;
+  width: 95%;
   margin: 20px;
   border: 1px solid #c4c4c4;
 }
@@ -907,6 +915,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 640px;
+  width: 95%;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -973,6 +982,8 @@ body {
   margin: 20px;
 }
 .sayt > .footer > .footer__top > img {
+  max-width: 380px;
+  width: 90%;
   margin: 20px;
 }
 .sayt > .footer > .footer__top > div {
@@ -1059,6 +1070,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 530px;
+  width: 95%;
 }
 .sayt > .footer > .footer__bottom > form > p {
   margin-bottom: 25px;

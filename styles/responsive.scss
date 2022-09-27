@@ -1,0 +1,84 @@
+@media screen and (max-width: 1390px) {
+  .sayt {
+    & > .header {
+      & > .header__top {
+        flex-direction: column;
+
+        &>:nth-child(1){
+            align-self: flex-start;
+        }
+
+        &>:nth-child(2){
+            align-self: center;
+        }
+
+        &>:nth-child(3){
+            align-self: flex-end;
+        }
+      }
+    }
+    & > .welcome {
+      flex-direction: column;
+      padding: 30px;
+
+      & > :nth-child(1) {
+        align-self: flex-start;
+      }
+
+      & > :nth-child(2) {
+        align-self: flex-end;
+      }
+    }
+
+    & > .info {
+      flex-direction: column;
+
+      & > :nth-child(1) {
+        align-self: flex-start;
+      }
+
+      & > :nth-child(2) {
+        align-self: center;
+      }
+
+      & > :nth-child(3) {
+        align-self: flex-end;
+      }
+    }
+
+    & > .offers {
+      & > .offers__block {
+        flex-direction: column;
+
+        & > :nth-child(1) {
+          align-self: flex-start;
+        }
+
+        & > :nth-child(2) {
+          align-self: flex-end;
+        }
+      }
+    }
+
+    & > .services {
+      & > :nth-child(1) {
+        max-width: 1300px;
+        text-align: center;
+
+        & > h3 {
+          margin: auto;
+        }
+      }
+    }
+
+    & > .blog {
+      & > .blog__cards {
+        flex-direction: column;
+
+        & > :nth-child(2) {
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}

@@ -21,14 +21,33 @@
       rel="stylesheet"
       href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
     />
+
+    <link rel="stylesheet" href="WOW-master/css/libs/animate.css" />
   </head>
   <body>
     <div class="sayt">
       <div class="header">
         <div class="header__top">
-          <h3>Call - 123 456 789</h3>
-          <img src="images/header.png" alt="" />
-          <button>Reservation</button>
+          <h3
+            class="wow slideInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            Call - 123 456 789
+          </h3>
+          <img
+            class="wow slideInDown"
+            data-wow-duration="1s"
+            src="images/header.png"
+            alt=""
+          />
+          <button
+            class="wow slideInRight"
+            data-wow-duration="1s"
+            data-wow-delay="2s"
+          >
+            Reservation
+          </button>
         </div>
 
         <div class="header__bottom">
@@ -63,21 +82,21 @@
       </div>
 
       <div class="info">
-        <div class="info__card">
+        <div class="info__card wow rotateIn"  data-wow-offset="100">
           <img src="images/loc.png" alt="" />
           <div>
             <h3>Locate Us</h3>
             <h5>Riverside 25, San Diego, California</h5>
           </div>
         </div>
-        <div class="info__card">
+        <div class="info__card wow rotateIn"  data-wow-offset="100">
           <img src="images/speed.png" alt="" />
           <div>
             <h3>Open Hours</h3>
             <h5>Mon To Fri 9:00 AM - 9:00 PM</h5>
           </div>
         </div>
-        <div class="info__card">
+        <div class="info__card wow rotateIn"  data-wow-offset="100">
           <img src="images/list.png" alt="" />
           <div>
             <h3>Reservation</h3>
@@ -323,7 +342,7 @@
           fussiest eaters now the dishes are in offers use it based on hunger.
         </p>
         <div class="offers__block">
-          <div class="offers__block__card">
+          <div class="offers__block__card wow slideInLeft" data-wow-offset="500">
             <div>
               <img src="images/b_price.png" alt="" />
               <h3>50% Offer Going</h3>
@@ -332,7 +351,7 @@
             </div>
             <img src="images/burger.png" alt="" />
           </div>
-          <div class="offers__block__card">
+          <div class="offers__block__card wow slideInRight" data-wow-offset="500">
             <div>
               <img src="images/p_price.png" alt="" />
               <h3>50% Offer Going</h3>
@@ -353,18 +372,18 @@
           Record.
         </p>
         <div class="popular__block">
-          <div class="popular__block__card">
+          <div class="popular__block__card wow rotateIn" data-wow-offset="300">
             <img src="images/popular1.png" alt="" />
             <h3>Chicken Manjoori <font>$15</font></h3>
             <p>Dish relished by all age groups as a starter dish at parties.</p>
           </div>
-          <div class="popular__block__card">
+          <div class="popular__block__card wow rotateIn" data-wow-offset="300">
             <img src="images/popular2.png" alt="" />
 
             <h3>Hotdog <font>$10</font></h3>
             <p>Grilled sausage served in the slit of a partially sliced bun.</p>
           </div>
-          <div class="popular__block__card">
+          <div class="popular__block__card wow rotateIn" data-wow-offset="300">
             <img src="images/popular3.png" alt="" />
 
             <h3>Fresh Salmon <font>$5</font></h3>
@@ -372,7 +391,7 @@
               Beat the health blues with our Super Immune Blue Juice Recipe.
             </p>
           </div>
-          <div class="popular__block__card">
+          <div class="popular__block__card wow rotateIn" data-wow-offset="300">
             <img src="images/popular4.png" alt="" />
 
             <h3>Veg Burger <font>$10</font></h3>
@@ -383,7 +402,7 @@
       </div>
 
       <div class="services">
-        <div class="services__text">
+        <div class="services__text wow slideInLeft">
           <h3>What we offer</h3>
           <h2>Our Great Services</h2>
           <p>
@@ -391,9 +410,9 @@
             room away from your home. food takes the spotlight as guests.
           </p>
         </div>
-        <img src="images/calendar.png" alt="" class="services__service" />
-        <img src="images/munus.png" alt="" class="services__service" />
-        <img src="images/moto.png" alt="" class="services__service" />
+        <img src="images/calendar.png" alt="" class="services__service wow slideInLeft"  data-wow-offset="300"    />
+        <img src="images/munus.png" alt="" class="services__service wow slideInDown"     data-wow-offset="300" />
+        <img src="images/moto.png" alt="" class="services__service wow slideInRight"     data-wow-offset="300" />
       </div>
 
       <div class="blog">
@@ -405,7 +424,7 @@
         </p>
 
         <div class="blog__cards">
-          <div class="blog__cards__card">
+          <div class="blog__cards__card wow bounceInLeft" data-wow-offset="500">
             <div>
               <button>View More</button>
             </div>
@@ -422,7 +441,7 @@
               </p>
             </div>
           </div>
-          <div class="blog__cards__card">
+          <div class="blog__cards__card wow bounceInRight" data-wow-offset="500">
             <div>
               <button>View More</button>
             </div>
@@ -520,5 +539,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="index.js"></script>
+
+    <script src="WOW-master/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
