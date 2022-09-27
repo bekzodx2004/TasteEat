@@ -131,7 +131,7 @@ body {
 
     & > .welcome__text {
       max-width: 616px;
-      width: 100%;
+      width: 95%;
       margin: 20px;
 
       & > h1 {
@@ -599,6 +599,7 @@ body {
   }
 
   & > .offers {
+    padding: 20px;
     padding-top: 140px;
     padding-bottom: 120px;
 
@@ -892,6 +893,7 @@ body {
       }
     }
     & > img {
+      max-width: 254px;
       margin: 15px;
     }
   }
@@ -955,7 +957,7 @@ body {
 
       & > .blog__cards__card {
         max-width: 640px;
-        width: 95%;
+        width: 90%;
         margin: 20px;
         border: 1px solid #c4c4c4;
 
@@ -980,7 +982,7 @@ body {
           }
         }
 
-        & > div {
+        & > :nth-child(2) {
           padding: 50px;
           padding-bottom: 40px;
           padding-top: 40px;
@@ -1032,12 +1034,12 @@ body {
 
       & > :nth-child(1) {
         & > :nth-child(1) {
-          background: url(../images/blog1.png) center center / cover;
+          background: url(../images/blog1.png) no-repeat center center / cover;
         }
       }
       & > :nth-child(2) {
         & > :nth-child(1) {
-          background: url(../images/blog2.png) center center / cover;
+          background: url(../images/blog2.png) no-repeat center center / cover;
         }
       }
     }

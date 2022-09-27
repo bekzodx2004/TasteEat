@@ -81,4 +81,57 @@
   .sayt > .footer > .footer__bottom > :nth-child(1) {
     align-self: flex-start;
   }
+}
+@media screen and (max-width: 768px) {
+  .sayt > .welcome {
+    padding: 20px;
+  }
+  .sayt > .welcome > .welcome__text > h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .sayt > .welcome > .welcome__text > button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .sayt > .welcome > :nth-child(1) {
+    align-self: center;
+  }
+  .sayt > .welcome > :nth-child(2) {
+    align-self: center !important;
+  }
+  .sayt > .header > .header__top > :nth-child(odd) {
+    align-self: center;
+  }
+  .sayt > .info > :nth-child(odd) {
+    align-self: center;
+  }
+  .sayt > .offers > .offers__block > :nth-child(1) {
+    align-self: center;
+  }
+  .sayt > .offers > .offers__block > :nth-child(2) {
+    align-self: center;
+  }
+  .sayt > .services {
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+  .sayt > .services > :nth-child(1) {
+    align-self: center;
+  }
+  .sayt > .services > :nth-child(2) {
+    align-self: center;
+  }
+  .sayt > .services > :nth-child(4) {
+    align-self: center;
+  }
+  .sayt > .blog > .blog__cards > :nth-child(1) {
+    align-self: center;
+  }
+  .sayt > .blog > .blog__cards > :nth-child(2) {
+    align-self: center;
+    margin: auto;
+  }
 }/*# sourceMappingURL=responsive.css.map */

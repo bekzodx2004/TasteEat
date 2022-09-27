@@ -121,3 +121,87 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .sayt {
+    & > .welcome {
+      padding: 20px;
+      & > .welcome__text {
+        & > h1 {
+          font-size: 60px;
+          text-align: center;
+        }
+
+        & > button {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+      }
+
+      & > :nth-child(1) {
+        align-self: center;
+      }
+      & > :nth-child(2) {
+        align-self: center !important;
+      }
+    }
+
+    & > .header {
+      & > .header__top {
+        & > :nth-child(odd) {
+          align-self: center;
+        }
+      }
+    }
+
+    & > .info {
+      & > :nth-child(odd) {
+        align-self: center;
+      }
+    }
+
+    & > .offers {
+      & > .offers__block {
+        & > :nth-child(1) {
+          align-self: center;
+        }
+        & > :nth-child(2) {
+          align-self: center;
+        }
+      }
+    }
+
+    & > .services {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      align-items: center;
+
+      & > :nth-child(1) {
+        align-self: center;
+      }
+
+      & > :nth-child(2) {
+        align-self: center;
+      }
+
+      & > :nth-child(4) {
+        align-self: center;
+      }
+    }
+
+    & > .blog {
+      & > .blog__cards {
+        & > :nth-child(1) {
+          align-self: center;
+        }
+
+        & > :nth-child(2) {
+          align-self: center;
+          margin: auto;
+        }
+      }
+    }
+  }
+}

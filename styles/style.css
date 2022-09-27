@@ -117,7 +117,7 @@ body {
 }
 .sayt > .welcome > .welcome__text {
   max-width: 616px;
-  width: 100%;
+  width: 95%;
   margin: 20px;
 }
 .sayt > .welcome > .welcome__text > h1 {
@@ -492,6 +492,7 @@ body {
   width: 100%;
 }
 .sayt > .offers {
+  padding: 20px;
   padding-top: 140px;
   padding-bottom: 120px;
 }
@@ -745,6 +746,7 @@ body {
   margin-top: 13px;
 }
 .sayt > .services > img {
+  max-width: 254px;
   margin: 15px;
 }
 .sayt > .blog {
@@ -799,7 +801,7 @@ body {
 }
 .sayt > .blog > .blog__cards > .blog__cards__card {
   max-width: 640px;
-  width: 95%;
+  width: 90%;
   margin: 20px;
   border: 1px solid #c4c4c4;
 }
@@ -822,12 +824,12 @@ body {
   letter-spacing: 0.44px;
   color: #292e36;
 }
-.sayt > .blog > .blog__cards > .blog__cards__card > div {
+.sayt > .blog > .blog__cards > .blog__cards__card > :nth-child(2) {
   padding: 50px;
   padding-bottom: 40px;
   padding-top: 40px;
 }
-.sayt > .blog > .blog__cards > .blog__cards__card > div > h3 {
+.sayt > .blog > .blog__cards > .blog__cards__card > :nth-child(2) > h3 {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -843,7 +845,7 @@ body {
   margin-right: 30px;
   margin-top: 10px;
 }
-.sayt > .blog > .blog__cards > .blog__cards__card > div > h2 {
+.sayt > .blog > .blog__cards > .blog__cards__card > :nth-child(2) > h2 {
   font-family: "Cormorant Infant";
   font-style: normal;
   font-weight: 400;
@@ -853,7 +855,7 @@ body {
   color: #292e36;
   margin-top: 24px;
 }
-.sayt > .blog > .blog__cards > .blog__cards__card > div > p {
+.sayt > .blog > .blog__cards > .blog__cards__card > :nth-child(2) > p {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -864,10 +866,10 @@ body {
   margin-top: 24px;
 }
 .sayt > .blog > .blog__cards > :nth-child(1) > :nth-child(1) {
-  background: url(../images/blog1.png) center center/cover;
+  background: url(../images/blog1.png) no-repeat center center/cover;
 }
 .sayt > .blog > .blog__cards > :nth-child(2) > :nth-child(1) {
-  background: url(../images/blog2.png) center center/cover;
+  background: url(../images/blog2.png) no-repeat center center/cover;
 }
 .sayt > .forma {
   padding-top: 140px;
