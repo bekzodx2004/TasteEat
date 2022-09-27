@@ -55,4 +55,30 @@
   .sayt > .blog > .blog__cards > :nth-child(2) {
     align-self: flex-end;
   }
+}
+@media screen and (max-width: 1024px) {
+  .sayt > .services {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sayt > .services > :nth-child(2) {
+    align-self: flex-start;
+  }
+  .sayt > .services > :nth-child(4) {
+    align-self: flex-end;
+  }
+  .sayt > .footer > .footer__top {
+    flex-direction: column;
+  }
+  .sayt > .footer > .footer__top > div > a {
+    margin: 20px !important;
+    align-self: flex-start !important;
+  }
+  .sayt > .footer > .footer__bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sayt > .footer > .footer__bottom > :nth-child(1) {
+    align-self: flex-start;
+  }
 }/*# sourceMappingURL=responsive.css.map */
